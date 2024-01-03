@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.6);
+  width: 340px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+  background: linear-gradient(to right, #7582ff, #491eff);
+  border: solid 1px #122;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    width: 96%;
+  }
+}
+
+.btn-exit {
+  border: solid 2px #fe0505;
+  padding: 15px;
+  background: #ffffffff;
+  border-radius: 20px;
+  height: 50px;
+  position: fixed;
+  margin-left: 280px;
+  margin-top: 40px;
+}
+
+.btn-exit button {
+  margin-left: -8px;
+}
+
+.nav-bg img {
+  height: 220px;
+  width: 170%;
+  margin-top: -32px;
+  border: solid 2px #fe0505;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item img {
+  border-radius: 60%;
+  border: solid 2px #fe0505;
+  margin-left: 25px;
+  height: 260px;
+  width: 260px;
+  position: fixed;
+  margin-top: -100px;
+}
+
+.nav-item h1 {
+  font-size: 28px;
+  margin-left: 23px;
+  margin-top: 90px;
+  font-weight: bold;
+  padding: 5px;
+  color: #fe0505;
+  background: #122;
+  border: solid 2px #122;
+  border-radius: 6px;
+}
+
+.srch {
+  margin-top: 150px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.srch input {
+  margin-top: -40px;
+  height: 40px;
+  padding: 5px;
+}
+
+.srch button {
+  margin-top: -67px;
+  margin-left: 223px;
+}
+
+.navbar-brand {
+  font-family: 'Silkscreen', Sans-Serif;
+}
+
+.navbar-brand > span {
+  color: #fe0505;
+}
+
+.srch .drp-group {
+  margin-top: 60px;
+  margin-left: -230px;
+}
+
+.drp-group .drp-btn {
+  height: 40px;
+  border: solid 2px #122;
+}
+
+.film-settings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#film-output {
+  margin-left: 12px;
+  margin-right: 12px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#film-output img {
+  height: 150px;
+  margin-left: 24px;
+  border-radius: 6px;
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  border: solid 1px #fe0505;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.4);
+}
+
+.btn-true button {
+  border: solid 2px #122;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.footer1 {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer1 > h4 {
+  background-image: linear-gradient(to left, #491eff, #fe0505);
+  position: fixed;
+  font-weight: bold;
+  -webkit-background-clip: text;
+  font-size: 26px;
+  margin-left: 22px;
+  margin-top: 230px;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer > h4 {
+  background-image: linear-gradient(to left, #491eff, #fe0505);
+  font-weight: bold;
+  -webkit-background-clip: text;
+  font-size: 26px;
+  margin-top: 30px;
+  -webkit-text-fill-color: transparent;
+}
+
+.flw {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Silkscreen', Sans-Serif;
+}
+
+.flw h4 {
+  font-size: 26px;
+  color: #ffffffff;
+  margin-left: 15px;
+  margin-top: -60px;
+}
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 22px;
+}
+
+.link a {
+  margin-left: 15px;
+  margin-top: -50px;
+  border: solid 2px #000000;
+  margin-top: 4px;
+}
+
+.link1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link1 a {
+  margin-left: 15px;
+  border: solid 2px #000000;
+  margin-top: 3px;
+}
+
+.preloader {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #ccc;
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+  }
