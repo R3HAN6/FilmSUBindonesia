@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    width: 96%;
+  }
+}
+
+.srch {
+  margin-top: 160px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.srch input {
+  margin-top: -40px;
+  height: 40px;
+}
+
+.srch button {
+  margin-top: -63px;
+  margin-left: 228px;
+}
+
+.navbar-brand {
+  font-family: 'Silkscreen', Sans-Serif;
+}
+
+.navbar-brand > span {
+  color: #fe0505;
+}
+
+.cntr .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left, #7582ff, #ffffffff);
+  border: solid 1px #fe0505;
+  width: 344px;
+  height: 200px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.container {
+  margin-top: 90px;
+  padding: 8px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+}
+
+.container img {
+  height: 105%;
+  width: 48%;
+  border-radius: 12px;
+  margin-left: -186px;
+}
+
+.container-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-title h1 {
+  font-size: 12px;
+  margin-left: 167px;
+  margin-top: -340px;
+}
+
+@media screen and (min-width: 768px) {
+  .cntr .container {
+    width: 80%;
+    height: 300px;
+  }
+  .container img {
+    margin-left: -470px;
+    height: 290px;
+    width: 240px;
+  }
+  .container-title h1 {
+    font-size: 15px;
+    margin-left: 260px;
+    margin-top: -540px;
+  }
+}
+
+.play-film {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play-film button {
+  margin-left: 180px;
+  margin-top: -190px;
+  width: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .play-film button {
+    margin-left: 300px;
+  }
+  .Download-film button {
+    margin-left: 300px;
+  }
+}
+
+.footer {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer > h4 {
+  background-image: linear-gradient(to left, #491eff, #fe0505);
+  font-weight: bold;
+  -webkit-background-clip: text;
+  font-size: 26px;
+  margin-top: 30px;
+  -webkit-text-fill-color: transparent;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link a {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -50px;
+  border: solid 2px #000000;
+  margin-top: 4px;
+}
+
+.link1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link1 a {
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 2px #000000;
+  margin-top: 3px;
+  }
